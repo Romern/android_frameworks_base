@@ -7195,6 +7195,10 @@ public final class Settings {
          */
         public static final String VOLUME_LINK_NOTIFICATION = "volume_link_notification";
 
+         * Whether the Lockdown button should be shown in the power menu.
+         * @hide
+         */
+        public static final String LOCKDOWN_IN_POWER_MENU = "lockdown_in_power_menu";
         /**
          * This are the settings to be backed up.
          *
@@ -7297,6 +7301,7 @@ public final class Settings {
             SCREENSAVER_COMPONENTS,
             SCREENSAVER_ACTIVATE_ON_DOCK,
             SCREENSAVER_ACTIVATE_ON_SLEEP,
+            LOCKDOWN_IN_POWER_MENU,
         };
 
         /** @hide */
